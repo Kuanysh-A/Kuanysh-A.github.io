@@ -171,8 +171,8 @@ body {
 }
 
 .inline-button-dark {
-    width: 199px;
-    height: 61px;
+    width: 160px;
+    height: 53px;
     padding: 0.5em 1em;
     border: 1px solid #292929;
     border-radius: 6px;
@@ -181,8 +181,8 @@ body {
 
     font-family: 'Montserrat-semibold';
     font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: main-button;
     text-align: center;
     color: #292929;
 }
@@ -212,7 +212,7 @@ body {
     align-items: center;
     position: absolute;
     bottom: 80px;
-    right: 150px;
+    right: 200px;
 }
 
 .scroll-element:hover {
@@ -675,8 +675,8 @@ body {
 }
 
 .section4-header {
-    width: 765px;
-    height: 106px;
+    width: 520px;
+    height: 65px;
     background: #0D0D0D;
     border-radius: 9px;
     display: flex;
@@ -684,29 +684,28 @@ body {
 }
 
 .section4-header p {
-    left: 50%;
     margin-top: 0;
     margin-bottom: 0;
-    width: 765px;
-    height: 69px;
+    width: 520px;
+    height: 65px;
 
     font-family: 'Montserrat-bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 57px;
-    line-height: 69px;
+    font-size: 35px;
+    line-height: 65px;
     text-align: center;
     color: #FFFFFF;
 }
 
 
 .section4-logo {
-    margin-left: -128px;
+    margin-left: -98px;
     position: absolute;
 
     border-radius: 50%;
-    width: 182px;
-    height: 182px;
+    width: 130px;
+    height: 130px;
 
     background: #0D0D0D;
     box-shadow: 4px 0px 9px rgba(255, 238, 10, 0.2);
@@ -716,16 +715,21 @@ body {
     display: flex;
 }
 
+.section4-logo img {
+    width: 100px;
+    height: 100px;
+}
+
 .section4-paragraph {
     margin-top: 50px;
-    margin-left: 95px;
+    margin-left: 83px;
 }
 
 .section4-paragraph p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 134.9%;
 
     color: #292929;
@@ -759,30 +763,30 @@ body {
     font-family: 'Miratrix-normal';
     font-style: normal;
     font-weight: 400;
-    font-size: 58px;
+    font-size: 50px;
     line-height: 134.9%;
     color: #292929;
 }
 
 .insta-button {
     border-width: 0px;
-    width: 171px;
-    height: 94px;
+    width: 135px;
+    height: 65px;
     background: #FFEE0A;
-    border-radius: 9.22613px;
+    border-radius: 9px;
     font-family: 'Miratrix-normal';
     font-style: normal;
-    font-size: 58px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 16px;
-    margin-left: 110px;
+    margin-top: -8px;
+    margin-left: 95px;
 
     transition: width 0.3s ease;
 }
 
 .insta-button:hover {
     cursor: pointer;
-    width: 247px;
+    width: 170px;
 }
 
 .section4-rightimg img {
@@ -874,7 +878,7 @@ body {
     }
 
     .insta-button {
-        scale: 0.7;
+        scale: 0.71;
         margin-top: -25px;
         margin-left: 65px
     }

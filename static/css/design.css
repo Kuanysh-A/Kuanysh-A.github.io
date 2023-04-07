@@ -589,8 +589,8 @@
 
 .persona-figure-container {
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -599,8 +599,8 @@
 
 .disabled-persona-figure-container {
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -621,8 +621,8 @@
 
 .ellipse1 {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -647,14 +647,14 @@
 }
 
 .persona-figure-container:hover .ellipse1 {
-  width: 240px;
-  height: 240px;
+  width: 210px;
+  height: 210px;
 }
 
 .btnpressed-ellipse1 {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   background: #FFEE0A;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   transform: matrix(-1, 0, 0, 1, 0, 0);
