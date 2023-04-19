@@ -1,0 +1,42 @@
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 2.67em;
+  height: 2.67em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 12px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 0.5em solid #073478;
+  border-right: 0.5em solid #073478;
+  border-bottom: 0.5em solid #073478;
+  border-left: 0.5em solid #a0a0a0;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+  overflow-x: hidden;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

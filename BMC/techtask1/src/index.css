@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: main;
+  src: url(./fonts/medium.otf);
+}
+
+@font-face {
+  font-family: mediumitalic;
+  src: url(./fonts/mediumitalic.otf);
+}
+
+@font-face {
+  font-family: lightq;
+  src: url(./fonts/light.otf);
+}
+
+@font-face {
+  font-family: mediumq;
+  src: url(./fonts/medium.otf);
+}
+
+body {
+  margin: 0;
+  font-family: main, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.fixed-navbar {
+  position: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+.light {
+  font-family: lightq !important;
+}
+
+.medium {
+  font-family: mediumq !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.scroll-snap-x {
+  scroll-snap-type: x mandatory;
+}
