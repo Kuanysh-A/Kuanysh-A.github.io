@@ -209,7 +209,7 @@
 .mini-ellipse {
   width: 63px;
   height: 63px;
-  background-image: url('/static/btnpressed_ellipse.png');
+  background-image: url('/static/btnpressed ellipse.png');
   background-size: cover;
   position: relative;
   left: 30px;
