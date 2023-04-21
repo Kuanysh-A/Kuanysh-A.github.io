@@ -185,7 +185,7 @@ const gotoNum = number => {
         countLetter = 0;
         TyperText = slides[current].id;
         setTimeout(() => {
-            document.getElementById('textDinamically').textContent = ' '
+            document.getElementById('textDinamically').textContent = ''
             typeWriter()
         }, 600)
 
